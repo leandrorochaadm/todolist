@@ -12,7 +12,7 @@ class AppModule extends StatelessWidget {
       providers: [
         Provider(create: (_) => Object()),
       ],
-      child: AppWidget(),
+      child: const AppWidget(),
     );
   }
 }
